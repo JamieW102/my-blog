@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #C25100;
+    background-color: #003359;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -11,11 +11,31 @@
 }
 
 .content {
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 40px;
+    margin-right: 40px;
+
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Comfortaa', cursive;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+p {
+   font-family: 'Handlee', cursive;
+   font-size: 14pt;
+   background-color: #f2f2f2;
+   padding: 20px;
 }
 
 .date {
@@ -38,7 +58,7 @@ h1, h2, h3, h4 {
 }
 
 .post {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .post h2 a, .post h2 a:visited {
