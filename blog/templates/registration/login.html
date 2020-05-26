@@ -1,12 +1,11 @@
 {% extends "blog/base.html" %}
 
 {% block content %}
-    {% if form.errors %}
-        <p>Your username and password didn't match. Please try again.</p>
-    {% endif %}
 
     <form method="post" action="{% url 'login' %}">
     {% csrf_token %}
+	<h2>Login</h2>
+	<h3>Please sign in to view restricted pages.</h3>
         <table>
         <tr>
             <td>{{ form.username.label_tag }}</td>
@@ -18,7 +17,10 @@
         </tr>
         </table>
 
-        <input type="submit" value="login" />
+        <input type="submit" value="Login" />
         <input type="hidden" name="next" value="{{ next }}" />
     </form>
+    {% if form.errors %}
+        <p style="color:red; background-color: white; padding: 0px;">Your username and password didn't match. Please try again.</p>
+    {% endif %}
 {% endblock %}
