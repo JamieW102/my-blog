@@ -61,7 +61,7 @@ header {
     animation-name: fade1;
     animation-duration: 5s;
     display: inline;
-    font-size: 100px;
+    font-size: 75px;
 
 }
 
@@ -69,12 +69,13 @@ header {
     animation-name: fade2;
     animation-duration: 5s;
     display: inline;
-    font-size: 100px;
+    font-size: 75px;
 
 }
 
 .maintitle {
     margin: 0;
+    padding: -50px;
     position: absolute;
     top: 50%;
     left: 50%;
