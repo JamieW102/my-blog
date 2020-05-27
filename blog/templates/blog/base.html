@@ -12,6 +12,7 @@
     <div class="page-header">
 	<div class="topnav">
 		<a href="{% url 'post_list' %}">Blog</a>
+		<a href="{% url 'gallery' %}">Gallery</a>
 	    	<a class="active" href="{% url 'home' %}">Home</a>
 	</div>
 	{% if user.is_authenticated %}

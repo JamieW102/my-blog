@@ -1,0 +1,127 @@
+{% load static %}
+<html>
+    <head>
+        <title>J White | GALLERY</title>
+	<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Handlee&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="{% static 'css/stylegallery.css' %}">
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="title3">Welcome to the home of J White Photography.</h2>
+        </div>
+        <header>
+	    <div class="maintitle">
+            	<h1 class="title1">J White </h1><h1 class="title2"> Photography.</h1>
+	    </div>
+	    <div class="topnav">
+		<a href="{% url 'post_list' %}">Blog</a>
+	    	<a class="active" href="{% url 'gallery' %}">Gallery</a>
+		<a href="{% url 'home' %}">Home</a>
+	    </div>
+        </header>
+    </body>
+    <div class="gallery">
+	<div class="row">
+	  <div class="column">
+	    <a target="_blank" href="{% static "css/20180731_193637.jpg" %}">
+	    	<img src="{% static "css/20180731_193637.jpg" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/20170603_130959.jpg" %}">
+	    	<img src="{% static "css/20170603_130959.jpg" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/20180731_193449.jpg" %}">
+	    	<img src="{% static "css/20180731_193449.jpg" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/20180801_194557.jpg" %}">
+	    	<img src="{% static "css/20180801_194557.jpg" %}">
+	    </a>
+   	    <a target="_blank" href="{% static "css/DSC_0959.JPG" %}">
+	    	<img src="{% static "css/DSC_0959.JPG" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/20190731_204534.jpg" %}">
+	    	<img src="{% static "css/20190731_204534.jpg" %}">
+	    </a> 
+	    <a target="_blank" href="{% static "css/20170603_131417.jpg" %}">
+	    	<img src="{% static "css/20170603_131417.jpg" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/DSC_0542.JPG" %}">
+	    	<img src="{% static "css/DSC_0542.JPG" %}">
+	    </a>
+	  </div>
+	  <div class="column">
+	    <a target="_blank" href="{% static "css/20180903_111501.jpg" %}">
+	    	<img src="{% static "css/20180903_111501.jpg" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/20190718_222034.jpg" %}">
+	    	<img src="{% static "css/20190718_222034.jpg" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/20190722_203935.jpg" %}">
+	    	<img src="{% static "css/20190722_203935.jpg" %}">
+	    </a>
+    	    <a target="_blank" href="{% static "css/20190722_204442.jpg" %}">
+	    	<img src="{% static "css/20190722_204442.jpg" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/20190724_130253.jpg" %}">
+	    	<img src="{% static "css/20190724_130253.jpg" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/20190727_204455.jpg" %}">
+	    	<img src="{% static "css/20190727_204455.jpg" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/20190727_204504.jpg" %}">
+	    	<img src="{% static "css/20190727_204504.jpg" %}">
+	    </a>
+    	    <a target="_blank" href="{% static "css/DSC_0046.JPG" %}">
+	    	<img src="{% static "css/DSC_0046.JPG" %}">
+	    </a>
+	  </div>
+	  <div class="column">
+	    <a target="_blank" href="{% static "css/DSC_0060.JPG" %}">
+	    	<img src="{% static "css/DSC_0060.JPG" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/DSC_0080.JPG" %}">
+	    	<img src="{% static "css/DSC_0080.JPG" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/DSC_0283.JPG" %}">
+	    	<img src="{% static "css/DSC_0283.JPG" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/DSC_0294.JPG" %}">
+	    	<img src="{% static "css/DSC_0294.JPG" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/DSC_0302.JPG" %}">
+	    	<img src="{% static "css/DSC_0302.JPG" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/DSC_0347.JPG" %}">
+	    	<img src="{% static "css/DSC_0347.JPG" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/DSC_1386.JPG" %}">
+	    	<img src="{% static "css/DSC_1386.JPG" %}">
+	    </a>
+	  </div>
+	  <div class="column">
+	   <a target="_blank" href="{% static "css/DSC_0350.JPG" %}">
+	    	<img src="{% static "css/DSC_0350.JPG" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/DSC_0477.JPG" %}">
+	    	<img src="{% static "css/DSC_0477.JPG" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/DSC_0484.JPG" %}">
+	    	<img src="{% static "css/DSC_0484.JPG" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/DSC_0617.JPG" %}">
+	    	<img src="{% static "css/DSC_0617.JPG" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/DSC_0687.JPG" %}">
+	    	<img src="{% static "css/DSC_0687.JPG" %}">
+	    </a>
+	    <a target="_blank" href="{% static "css/IMG_20180730_003720_051.jpg" %}">
+	    	<img src="{% static "css/IMG_20180730_003720_051.jpg" %}">
+	    </a>
+	  </div>
+	</div>
+    </div>
+</html>
