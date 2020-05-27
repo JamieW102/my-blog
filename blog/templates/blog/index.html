@@ -12,14 +12,16 @@
     </head>
     <body>
         <div class="container">
-            <h2 class="title3">Welcome to the home of J White Photography & Portfolio.</h2>
+            <h2 class="title3">Welcome to the home of J White Photography, Blog & Portfolio.</h2>
 	    <h2 class="title4">Hi There! My name is Jamie White and I'm a Computer Science student at the University of Birmingham. This website was built as part of a bridging coursework project to act as a hub for a portfolio and a blog page.</h2>
         </div>
 	<div class="container2">
 	    <img class="img1" src="{% static "css/3.jpg" %}">
         </div>
         <header>
-            <h1 class="title1">Hello</h1><h1 class="title2">World.</h1>
+	    <div class="maintitle">
+            	<h1 class="title1">Hello </h1><h1 class="title2"> World.</h1>
+	    </div>
 	    <div class="topnav">
 		<a href="{% url 'post_list' %}">Blog</a>
 	    	<a class="active" href="{% url 'home' %}">Home</a>

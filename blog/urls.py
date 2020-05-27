@@ -18,5 +18,5 @@ urlpatterns = [
     path('post/<pk>/publish/', views.post_publish, name='post_publish'),
     path('post/<pk>/remove/', views.post_remove, name='post_remove'),
     path('accounts/login/', LoginView.as_view(), name='login'),
-    path('accounts/logout/', LogoutView.as_view(next_page='/'), name='logout'),
+    path('accounts/logout/', LogoutView.as_view(next_page='/posts'), name='logout'),
 ]

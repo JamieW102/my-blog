@@ -28,7 +28,7 @@ body {
     overflow: hidden;
     position: absolute;
     top: 5%;
-    left: 45%;
+    left: 46%;
     transform: translate(-50%, -50%);
     font-size: 100px;
     font-family: 'Comfortaa', cursive;
@@ -57,29 +57,31 @@ header {
     text-transform: uppercase;
 }
 
-.title1{
+.title1 {
     animation-name: fade1;
     animation-duration: 5s;
+    display: inline;
+    font-size: 100px;
+
+}
+
+.title2 {
+    animation-name: fade2;
+    animation-duration: 5s;
+    display: inline;
+    font-size: 100px;
+
+}
+
+.maintitle {
     margin: 0;
     position: absolute;
     top: 50%;
-    left: 38%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 100px;
     font-family: 'Comfortaa', cursive;
 }
 
-.title2{
-    animation-name: fade2;
-    animation-duration: 5s;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 62%;
-    transform: translate(-50%, -50%);
-    font-size: 100px;
-    font-family: 'Comfortaa', cursive;
-}
 
 .title3 {
     margin-top: 30px;
